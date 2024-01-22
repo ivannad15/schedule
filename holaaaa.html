@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Day Schedule</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .highlight {
+      background-color: #ffe8cc;
+      font-weight: bold;
+    }
+
+    #important-event {
+      color: red;
+    }
+
+    .even-row {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Day Schedule</h1>
+
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Event</th>
+    </tr>
+    <tr class="even-row">
+      <td>08:00 AM</td>
+      <td class="highlight">Morning rutine</td>
+    </tr>
+    <tr>
+      <td>09:30 AM</td>
+      <td>Homework</td>
+    </tr>
+    <tr class="even-row">
+      <td>12:00 PM</td>
+      <td id="important-event">Walk with my dog</td>
+    </tr>
+    <tr>
+      <td>02:00 PM</td>
+      <td class="highlight">Shopping</td>
+    </tr>
+    <tr class="even-row">
+      <td>04:00 PM</td>
+      <td>Study Session</td>
+    </tr>
+    <tr>
+      <td>06:30 PM</td>
+      <td class="highlight">Dinner</td>
+    </tr>
+    <tr class="even-row">
+      <td>08:00 PM</td>
+      <td>Movie Night</td>
+    </tr>
+    <tr>
+      <td>10:00 PM</td>
+      <td>Reading Time</td>
+    </tr>
+  </table>
+
+</body>
+</html>
